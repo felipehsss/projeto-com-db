@@ -1,0 +1,22 @@
+{
+  "produtos": [
+    {
+      "nome": "Produto A",
+      "preço": 10,
+      "Descrição": "Este é o Produto A",
+      "Categoria": "00A"
+    },
+    {
+      "nome": "Produto B",
+      "preço": 20,
+      "Descrição": "Este é o Produto B",
+      "Categoria": "00B"
+    },
+    {
+      "nome": "Produto C",
+      "preço": 30,
+      "Descrição": "Este é o Produto C",
+      "Categoria": "00C"
+    }
+  ]
+}

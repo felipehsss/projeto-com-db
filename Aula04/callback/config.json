@@ -1,0 +1,10 @@
+{
+  "configs": [
+    {
+      "nome_aplicação": "meu App",
+      "versao": "1.0.0",
+      "Debug_mode": true,
+      "porta": 3000
+    }
+  ]
+}

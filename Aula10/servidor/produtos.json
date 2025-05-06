@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "nome": "Camiseta",
+    "preco": 29.99
+  },
+  {
+    "id": 2,
+    "nome": "Calça Jeans ",
+    "preco": 89.99
+  },
+  {
+    "id": 3,
+    "nome": "Tênis nike",
+    "preco": 299.99
+  },
+  {
+    "id": 4,
+    "nome": "Boné",
+    "preco": 29.99
+  }
+]

@@ -1,0 +1,23 @@
+const fs = require('fs').promises;
+// const fs = require('fs');
+
+// fs.promises.readFile('arquivo.txt','utf8')
+fs.readFile('arquivo.txt','utf8')
+.then(data =>{
+  console.log('Conteúdo do arquivo:', data);
+  return data.toUpperCase();
+  // toLowercase
+})
+.then(dataMaiusculas => {
+  console.log('Conteúdo em maiúsculas: ', dataMaiusculas);
+  return dataMaiusculas.toLowerCase();
+})
+.then(dataMinusculas => {
+  console.log('Conteúdo em minúsculas: ', dataMinusculas);
+  
+})
+
+.catch(err =>{
+  console.error('Erro ao ler o arquivo:', err);
+})
+

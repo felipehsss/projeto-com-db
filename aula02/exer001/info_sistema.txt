@@ -1,0 +1,14 @@
+
+
+  nomeDoComputador: ESN123D1230224,
+  versaoDoSistema: 10.0.19045,$
+  procesador: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],
+  memoria:8389726208,
+  diretorio: C:\Users\24250288,
+  arquitetura: x64,
+  plataforma: win32,
+  usuario: [object Object],
+  release: 10.0.19045,
+  version: Windows 10 Education,
+  homedir: C:\Users\24250288,
+  tmpdir: C:\Users\24250288\AppData\Local\Temp,
