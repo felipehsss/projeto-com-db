@@ -1,9 +1,16 @@
 import express from 'express';
 const app = express();
 const port = 3000;
+import cors from 'cors';
 
 import livroRotas from './routes/livroRotas.js'
-app.use('/livros', livroRotas)
+import authRotas from './routes/authRotas.js'
+
+app.use(cors());
+app.use(express.json());
+
+app.use('/livros', livroRotas);
+app.use('/auth', authRotas);
 
 
 app.get('/', (req, res) => {
